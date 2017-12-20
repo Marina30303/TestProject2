@@ -1,4 +1,4 @@
-package SoftGroup.CuncurrentList;
+package MyConcurrentArrayList;
 
 
 
@@ -10,11 +10,11 @@ import java.util.function.UnaryOperator;
 /**
  * Created by Марiна on 07.04.2017.
  */
-public class MyCuncurrnetList<T> implements List<T> {
+public class MyConcurrentList<T> implements List<T> {
+
 
 
    private T[] arrayElements = (T[])new Object[10000000];
-
 
 
 
