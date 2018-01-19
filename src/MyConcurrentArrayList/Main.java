@@ -1,4 +1,4 @@
-package SoftGroup.CuncurrentList;
+package MyConcurrentArrayList;
 
 import java.util.*;
 import java.util.List;
@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        List<Integer> myList = new MyCuncurrnetList<Integer>();
+        List<Integer> myList = new MyConcurrentList<Integer>();
         myList.add(1);
         myList.add(2);
         myList.add(3);
@@ -23,7 +23,7 @@ public class Main {
         myList.remove(2);
         while (iter.hasNext())
             System.out.print("[" +iter.next()+"] ");
-        List<Integer> myList2 = new MyCuncurrnetList<>();
+        List<Integer> myList2 = new MyConcurrentList<>();
         myList2.add(45);
         myList2.add(56);
         myList2.add(6);
@@ -43,7 +43,7 @@ public class Main {
             System.out.print("[" +iter2.next()+"] ");
 
         System.out.println();
-        List<String> stringList = new MyCuncurrnetList<>();
+        List<String> stringList = new MyConcurrentList<>();
         stringList.add("sd");
         stringList.add("a");
         stringList.add("b");
